@@ -3,21 +3,22 @@
 
 The goal of this course is to provide students with a comprehensive understanding of the field of computer science and the role of technology in our lives. It equips students with the necessary knowledge and skills to further their learning and development in this field. By exploring the various concepts covered in this course, students will gain a solid foundation in programming and computer science, which will enable them to pursue a career in technology or to continue their studies in this field.
 
-Exploiting the Capability of Computer Science in Afghanistan and global:
-This module explores the potential and capability of computer science in the global and Afghan context.
-The module examines the latest advancements and developments in computer science.
-By studying the advancements, students will gain an understanding of the important role computer science plays in shaping the world and future.
-
-Exploring the Intersection of Technology and Computer Science and the Definition of Related Terms:
-Key concepts and terms of computer science will be explored in this module.
-Topics covered include technology, science, engineering, computing, and more.
-Understanding these terms is essential for understanding the principles of computer science and the role of technology in our lives.
-This module is suitable for both beginners and experienced professionals.
-Provides a comprehensive understanding of the fundamental terms in computer science.
-
 ![individual busy in coding](https://img.freepik.com/free-vector/programmer-work-with-working-day-symbols-flat-illustration_1284-60322.jpg?w=1380&t=st=1676409453~exp=1676410053~hmac=8f57afaf5a11f88f419c55abc27fb002c54f90387ab335b40b2003a4ddb86114)
 
 ## ✿Outilnes✿
+
+### Exploiting the Capability of Computer Science in Afghanistan and global:
+- This module explores the potential and capability of computer science in the global and Afghan context.
+- The module examines the latest advancements and developments in computer science.
+- By studying the advancements, students will gain an understanding of the important role computer science plays in shaping the world and future.
+
+### Exploring the Intersection of Technology and Computer Science and the Definition of Related Terms:
+- Key concepts and terms of computer science will be explored in this module.
+- Topics covered include technology, science, engineering, computing, and more.
+- Understanding these terms is essential for understanding the principles of computer science and the role of technology in our lives.
+- This module is suitable for both beginners and experienced professionals.
+- Provides a comprehensive understanding of the fundamental terms in computer science.
+
 ### A Computer Odyssey ( From Past to Present ):
 - This module explores the history of computing.
 - The module covers the major milestones and innovations in the field of computing.
@@ -100,10 +101,10 @@ Provides a comprehensive understanding of the fundamental terms in computer scie
 - Overview of some well-known application created using python.
 - Overview of what kind of project can be created with python.
 - Some real-time projects on diverse areas such as:
-- Making Website with Python.
-- Creating GUI based Desktop application.
-- Building  a Data Science Related Project and Visualisation.
-- Etc…
+	- Making Website with Python.
+	- Creating GUI based Desktop application.
+	- Building  a Data Science Related Project and Visualisation.
+	- Etc…
 	
 ### Conclusion and Next Steps:
 - Recap of the course and its objectives.
