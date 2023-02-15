@@ -3,7 +3,7 @@
 
 The goal of this course is to provide students with a comprehensive understanding of the field of computer science and the role of technology in our lives. It equips students with the necessary knowledge and skills to further their learning and development in this field. By exploring the various concepts covered in this course, students will gain a solid foundation in programming and computer science, which will enable them to pursue a career in technology or to continue their studies in this field.
 
-![individual busy in coding]([https://img.freepik.com/free-vector/programmer-work-with-working-day-symbols-flat-illustration_1284-60322.jpg?w=1380&t=st=1676409453~exp=1676410053~hmac=8f57afaf5a11f88f419c55abc27fb002c54f90387ab335b40b2003a4ddb86114](https://img.freepik.com/free-vector/programming-typographic-header-building-development-process-web-page-website-development-codding-digital-specialist-isolated-flat-illustration_613284-1440.jpg?w=900&t=st=1676446639~exp=1676447239~hmac=2673ae0a45375e4c72d821d8dd0c511021c1a56ccf5723aec1d99caa12bf6f0d))
+![individual busy in coding](https://img.freepik.com/free-vector/programming-typographic-header-building-development-process-web-page-website-development-codding-digital-specialist-isolated-flat-illustration_613284-1440.jpg?w=900&t=st=1676446639~exp=1676447239~hmac=2673ae0a45375e4c72d821d8dd0c511021c1a56ccf5723aec1d99caa12bf6f0d)
 
 ## ✿Outilnes✿
 
