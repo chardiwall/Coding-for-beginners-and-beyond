@@ -1,11 +1,11 @@
-# ❀Coding for Beginners and Beyond❀
+# ❀ Coding for Beginners and Beyond ❀
 "Coding for Beginners and Beyond" is an all-inclusive programming course designed to cater to the needs of both novice and seasoned programmers. It is a comprehensive curriculum that introduce you to the key concepts in computer science and programming, including science, technology, engineering, computing, and more that many have struggled in comprehending these terms including me. The course focuses on imparting the fundamental principles of programming and does not limit itself to teaching any specific programming language. This allows the students to apply the learned concepts to any programming language they choose to work with in the future.
 
 The goal of this course is to provide students with a comprehensive understanding of the field of computer science specially programming and the role of technology in our lives. It equips students with the necessary knowledge and skills to further their learning and development in this field. By exploring the various concepts covered in this course, students will gain a solid foundation in programming and computer science, which will enable them to pursue a career in technology or to continue their studies in this field.
 
-![individual busy in coding](https://img.freepik.com/free-vector/programming-typographic-header-building-development-process-web-page-website-development-codding-digital-specialist-isolated-flat-illustration_613284-1440.jpg?w=900&t=st=1676446639~exp=1676447239~hmac=2673ae0a45375e4c72d821d8dd0c511021c1a56ccf5723aec1d99caa12bf6f0d)
-
-## ✿Outilnes✿
+<img src="https://img.freepik.com/free-vector/flat-hand-drawn-web-developers_23-2148828087.jpg?w=900&t=st=1676581882~exp=1676582482~hmac=ad52145da00abbbaf4278791326d971c0fb7d357bc4101e85de280910298328f" width="100%" />
+	
+## ✿ Outilnes ✿
 
 ### Exploiting the Capability of Computer Science in Afghanistan and global:
 - This module explores the potential and capability of computer science in the global and Afghan context.
@@ -117,3 +117,5 @@ The goal of this course is to provide students with a comprehensive understandin
 - Recap of the course and its objectives.
 - Discussion of future prospects and next steps for students.
 - Suggesting additional resources and exercises for further learnin
+
+<h1 align="center">✿✿✿✿✿</h1>
