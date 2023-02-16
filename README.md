@@ -91,7 +91,7 @@ The goal of this course is to provide students with a comprehensive understandin
 - Overview of OOP concepts (classes, objects, inheritance, polymorphism, etc.)
 - Defining and using classes and objects in Python.
 - Overriding methods and using inheritance.
-- Developing *Tic Toc Toi* game with *PyGame*.
+- Developing **Tic Toc Toi** game with **PyGame**.
 
 ### Advanced Topics:
 - Introduction lambda, map and filter functions .
