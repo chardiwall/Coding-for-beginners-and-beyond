@@ -1,4 +1,4 @@
-# Strings --- text---
+# -------------------------- Strings (text) -------------------------
 
 # A string is a bunch of letters or symbols or bouth that we put inside quotation marks.
 # In Python, strings are a type of data that can be used to store and manipulate text.
@@ -58,7 +58,7 @@ full_name = first_name+" "+second_name # this called string concatincation
 print("full_name: ", full_name) # prints: Ahmad Mustafa
 
 #2. String replication.
-name = "hmad"
+name = "ahmad"
 replicated_name = name * 5 #this will create 5 copy of the string "ahmad" such like: "ahmadahmadahmadahmadahmad".
 print("replicated_name: ", replicated_name)
 
@@ -124,6 +124,23 @@ print( "name.isdigit(): ", name.isdigit() ) # Returns true if name variable only
 print( "name.startswith('A'): ", name.startswith('A') ) # Returns true if the string in name variable starts with A. # True
 
 
+
+# Note: Strings are Immutable.
+# Means that once we assign a string to a variable it cannot be changed.
+
+# So how the replace function changes the text?
+# well it does not changes the actual name.
+# The replace function copy the value of name and make changes to it.
+# Then it returns the altered or changed text. which is then printed to the screen and stored any where.
+# so if we print the actual value it will not be changed.
+print("Test: ", name)
+
+# Immutable meanse we cannot do following:
+# for example you want to change the letter 'u' in 'Ahmad Mustafa' to o. you might do this:
+# name[8]='o' so this cannot happen and will give error.
+# instead we do ether:
+# name.replace('u', 'o')  or
+# name.replace('Mustafa', 'Mostafa')
 
 
 # Quiz

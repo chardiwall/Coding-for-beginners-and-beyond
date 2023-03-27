@@ -1,3 +1,5 @@
+# ------------ Getting Started with python ------------ 
+
 # A variable is like a label that points to a special box in the computer's memory. 
 # This box holds a value, like a number or a word. So, when we use a variable in a program, we are really using the value stored in that special box.
 # in simple we use variable to store data and access that data.
@@ -50,17 +52,7 @@ print(first_name) # we mean the value which is "Ahmad" so "Ahmad" will be printe
 
 
 
-# # # x = 5
-# # # x = input("Enter a number: ")
-# # # y = input("Enter second number: ")
-# # # # int --> convert string into numbe
-# # # x = float(x)
-# # # y = float(y)
 
-# # # t = 6
-# # # str(t)
-
-# # # print(help(str))
 # # # # z = x+y
 # # # print(x, "+", y, ":" ,x+y)
 # # # print(x, "-", y, ":",x-y)
