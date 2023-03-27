@@ -1,5 +1,6 @@
-# Variable = A variable is like a label that points to a special box in the computer's memory. 
+# A variable is like a label that points to a special box in the computer's memory. 
 # This box holds a value, like a number or a word. So, when we use a variable in a program, we are really using the value stored in that special box.
+# in simple we use variable to store data and access that data.
 
 # We create varible like following
 var = 0 # Think of "var" like a box where we can store a number, and the number we put inside the box is 5. So now, whenever we talk about "var", we're really talking about the number 5."
@@ -40,7 +41,11 @@ firstName = "Ahmad"
 
 # to display information to the screen use use print function.
 # a function is a pre-written code for achieving a specific task in this case displying information.
-print("Hello world") # displaying a simple message to the world from machine.
+# a function takes input (i.e. additinal data called aguments in programming) process it and gives us output.
+# print is the name of the function.
+# we put paranthesis "()" to call that specific function to do work.
+# the "Hello World" and first_name are inputs to the function.
+print("Hello World") # displaying a simple message to the world from machine.
 print(first_name) # we mean the value which is "Ahmad" so "Ahmad" will be printed and not first_name because it is a variable.
 
 
