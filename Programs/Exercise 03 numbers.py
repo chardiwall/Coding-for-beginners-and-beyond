@@ -108,4 +108,49 @@ print(x, "**", y, "= ", x**y) #x**y= (102.61359530069451+94.82608377973663j)
 
 
 
-# Type Casting
+# Type Casting (data-type conversion):
+# In general, in programming we have two kind of Type casting.
+# 1. explicit, 2. implicit
+
+# Explicit type casting is done by use. We have to tell the machine that we are doing a specific type converion.
+# In python we have following type castings:
+# from string to int → int("5")
+# from string to int → float("5.5")
+# for the above two conversion there is only one rule and that is that string should not have any alphabitic letter.
+# e.g. int("5k") will give error because it has a letter. same goes for float.
+# from string to complex number → complex("5+4j")
+
+# from int to str → str(5)
+# from int to float → float(5.5)
+# from int to complex → complex(4)
+
+# from float to str → str(5.5)
+# from float to int → int(5.5)
+# from float to complex → complex(4.3)
+
+
+# ------------ Task -------------
+print()
+print("-------------------- Class Task -----------------")
+# Requesting first name form user
+first_name = input("Enter your First Name: ")
+
+# Requesting last name form user
+last_name = input("Enter your Last Name: ")
+
+# Greeting user
+print("Welcome Mr. ", first_name, last_name)
+
+print('*' * 50)
+
+# Requesting Date of Birth form user
+dob = int(input("Enter your Date of Birth: "))
+
+# displaing user age
+print("You are ", 2023 - dob, "years old")
+
+print('-' * 50)
+
+# --------- end of task ----------
+
+# dealing with functions
