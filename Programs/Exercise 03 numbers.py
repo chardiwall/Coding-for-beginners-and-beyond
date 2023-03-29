@@ -1,3 +1,7 @@
+# importing math module to extend the default functionality of python.
+# see line 192 for further clarification.
+import math
+
 # ------------------------ Numbers ----------------------
 # we have 3 types of number in python
 # 1. integer -> -infinity upto +infinity. cannot have point or fractional number. e.g. 0
@@ -133,24 +137,96 @@ print(x, "**", y, "= ", x**y) #x**y= (102.61359530069451+94.82608377973663j)
 print()
 print("-------------------- Class Task -----------------")
 # Requesting first name form user
-first_name = input("Enter your First Name: ")
+# first_name = input("Enter your First Name: ")
 
 # Requesting last name form user
-last_name = input("Enter your Last Name: ")
+# last_name = input("Enter your Last Name: ")
 
 # Greeting user
-print("Welcome Mr. ", first_name, last_name)
+# print("Welcome Mr. ", first_name, last_name)
 
 print('*' * 50)
 
 # Requesting Date of Birth form user
-dob = int(input("Enter your Date of Birth: "))
+# dob = int(input("Enter your Date of Birth: "))
 
 # displaing user age
-print("You are ", 2023 - dob, "years old")
+# print("You are ", 2023 - dob, "years old")
 
 print('-' * 50)
 
 # --------- end of task ----------
 
+
+# we use string literals to read numbers easily
+# 10,000,000 -> 10_000_000
+long_num = 10_000_000
+print(long_num)
+
+# complex operations
+exp = 2+(3*(4-3))+6*7/8**9
+print(f"2+(3*(4-3))+6*7/8**9 = ", exp)
+
+
 # dealing with functions
+# General function -> works with almost any data-type
+# abs() finding absolout value.
+abs_value = abs(-5)
+print("The absolute value of -5: ", abs_value) #5
+
+# round - Round a number to a given precision in decimal digits.
+num= 5.378
+print(f"round of {num}: ", round(num, 1))
+
+# pow(base, exponent),  
+print(f"pow of {num}, {2}: ", pow(num, 2))
+
+# pow(base, exponent, reminder) -> calculates (base**exponent) % reminder
+num = int(num)
+print(f"pow of {num}, {2}: ", pow(num, 2, 2))
+
+# divmode -> returns the division and the reminder of two numbers at once.
+print(f"division and reminder of 15, 4:", divmod(15,4))
+
+
+# ----------------- External functions -------------
+
+# Note to work with external files or modules we have to make it part of or python file. we do that as follow:
+# import math -> in this case math is an external file that contains python code.
+# this file came with python installation. so when we install python environment these modules shiped with it.
+# now we can use 'math' module to calculate complex operations like sin or asin or sinh or square root.
+
+# Note: we have to use this line 'import math' at the begining of file. means in the first line
+
+
+x = 90
+y = 10
+
+# Return the cosine of x.
+print( f"cosine of {x} = ", math.cos(x) )
+
+# Return the sin of x.
+print( f"sine of {x} = ", math.sin(x) )
+
+# Return the cube root of x.
+print( f"cube root of {x} = ", math.cbrt(x) )
+
+# Return the square root of x.
+print( f"square root of {x} = ", math.sqrt(x) )
+
+# Return the factorial of y.
+print( f"factorial of {x} = ", math.factorial(y) )
+
+# truncates decimal part from a number.
+print( f"floor of {x+0.5} = ", math.floor(x+0.5) )
+
+# increment a number with one and removes decimal part of the number.
+print( f"ceil of {x+0.5} = ", math.ceil(x+0.5) )
+
+
+# Note: there are a lot of other functionalities in math module you can check it using folloing lin of code.
+help(math)
+
+
+
+
