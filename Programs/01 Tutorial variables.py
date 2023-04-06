@@ -1,4 +1,4 @@
-# ------------ Getting Started with python ------------ 
+#      ------------ Getting Started with python ------------ 
 
 # A variable is like a label that points to a special box in the computer's memory. 
 # This box holds a value, like a number or a word. So, when we use a variable in a program, we are really using the value stored in that special box.

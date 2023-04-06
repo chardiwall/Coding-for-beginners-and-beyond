@@ -1,4 +1,4 @@
-# -------------------------- Strings (text) -------------------------
+#    -------------------------- Strings (text) -------------------------
 
 # A string is a bunch of letters or symbols or bouth that we put inside quotation marks.
 # In Python, strings are a type of data that can be used to store and manipulate text.
@@ -99,17 +99,17 @@ print("name[::-1]: ", name[::-1]) # afatsuM damaH  # every third word is prented
 
 
 
-# String operations
+# String operations using function
 # There are two types of function
-# 1. general function that works with any data type.
+# 1. general function that works with any data type: str, int or float.
 
-# 2. method which is a kind of function that is specific to a data type.
-# method is accessed using "." so we have variable.method().
+# 2. A special kind of function called method which is specific to data type.
+# method is accessed using "." after variable name so we have variable.method().
 
-name = "Ahmad Mustafa"
+name = "Ahmad Mustafa" # name is variable of string datatype
 
 # general function
-# 1. length of string
+# 1. Specifies the length of string
 len_of_name = len(name) # We use len function that returns 
 
 
@@ -131,9 +131,11 @@ print( "name.startswith('A'): ", name.startswith('A') ) # Returns true if the st
 # So how the replace function changes the text?
 # well it does not changes the actual name.
 # The replace function copy the value of name and make changes to it.
-# Then it returns the altered or changed text. which is then printed to the screen and stored any where.
+# Then it returns the altered or changed text. which is then printed to the screen and can be stored any where.
 # so if we print the actual value it will not be changed.
-print("Test: ", name)
+print("Test:", name.replace('Ahmad', 'Mahmood')) # prints Mahmood Mustafa
+print("Test: ", name) # prints Ahmad Mustafa
+# The key take away is that the name variable itself is not changed.
 
 # Immutable meanse we cannot do following:
 # for example you want to change the letter 'u' in 'Ahmad Mustafa' to o. you might do this:
@@ -141,33 +143,3 @@ print("Test: ", name)
 # instead we do ether:
 # name.replace('u', 'o')  or
 # name.replace('Mustafa', 'Mostafa')
-
-
-# Quiz
-# Leetspeak program --- informal language consist of letters and numbers.
-print()
-print(' LeetSpeak Converstion Program'.center(80, '*'))
-
-# Steps
-# 1. Read user name and store it in variable name.
-# Note: to read information from user we use input('message') function. where the input or argument message tells the user what are asking for.
-name = input( 'please enter your name: '.capitalize() ) # capitalize is a string methode that converts the begning of every word capitalize.
-
-# 2. replace the following:
-# a → 4
-# b → 8
-# e → 3
-# l → 1
-# S → 5
-# t → 7
-
-name = name.replace('a', str(4))
-name = name.replace('b', str(8))
-name = name.replace('e', str(3))
-name = name.replace('l', str(1))
-name = name.replace('s', str(5))
-name = name.replace('t', str(7))
-
-
-# display the altered text
-print("final Text: ", name)
