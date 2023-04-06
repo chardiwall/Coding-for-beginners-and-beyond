@@ -2,7 +2,7 @@
 # see line 192 for further clarification.
 import math
 
-# ------------------------ Numbers ----------------------
+#     ------------------------ Numbers ----------------------
 # we have 3 types of number in python
 # 1. integer -> -infinity upto +infinity. cannot have point or fractional number. e.g. 0
 # 2. floating  number or decimal number -> -infinity, +infinity. comes in point number shape. e.g. 0.0.
@@ -25,12 +25,13 @@ print("type: ", type(complex_number), "value", complex_number)
 
 
 
-
 # operations on integer numbers:
 
 # Note: we have two kind of operators:
 # 1. Unary Operators: as the name indicates here we have only one operator and one operand. almost always the operator comes to the left of operands.
 # +5 or -5 here (+) is an operator indicates positive number and (5) is the operand being indicated. same goes for (-).
+print(-5) # prints -5
+print(5) # prints 5
 
 # 2. Binary Operators: here we have two operands and one operator in the middle of operator.
 # 4+3 --- 4 and 3 are operands and + is an operator used to add two numbers.
@@ -88,7 +89,7 @@ print(x, "%",  y, "= ", x%y)  #x%y= 1.2000000000000002
 print(x, "**", y, "= ", x**y) #x**y= 143.08736809014272
 
 
-# operations on floating numbers:
+# operations on complex numbers:
 
 x = 6+ 7j
 y = 3+ 2j
@@ -108,9 +109,8 @@ print(x, "/",  y, "= ", x/y)  #x/y= (2.4615384615384617+0.6923076923076924j)
 # in python ** is used for finding exponential values. here x is the base and y  is the power.
 print(x, "**", y, "= ", x**y) #x**y= (102.61359530069451+94.82608377973663j)
 
+
 # Note: for complex number we do not have floor division (//) and reminder (%) operators.
-
-
 
 # Type Casting (data-type conversion):
 # In general, in programming we have two kind of Type casting.
@@ -133,33 +133,11 @@ print(x, "**", y, "= ", x**y) #x**y= (102.61359530069451+94.82608377973663j)
 # from float to complex → complex(4.3)
 
 
-# ------------ Task -------------
-print()
-print("-------------------- Class Task -----------------")
-# Requesting first name form user
-# first_name = input("Enter your First Name: ")
-
-# Requesting last name form user
-# last_name = input("Enter your Last Name: ")
-
-# Greeting user
-# print("Welcome Mr. ", first_name, last_name)
-
-print('*' * 50)
-
-# Requesting Date of Birth form user
-# dob = int(input("Enter your Date of Birth: "))
-
-# displaing user age
-# print("You are ", 2023 - dob, "years old")
-
-print('-' * 50)
-
-# --------- end of task ----------
-
 
 # we use string literals to read numbers easily
-# 10,000,000 -> 10_000_000
+# in every day life 10,000,000 -> in python 10_000_000
+# we cannot use comma for the same purpuse as we use in real life
+# 10,000,000 will mean 3 different number and not one
 long_num = 10_000_000
 print(long_num)
 
@@ -168,7 +146,7 @@ exp = 2+(3*(4-3))+6*7/8**9
 print(f"2+(3*(4-3))+6*7/8**9 = ", exp)
 
 
-# dealing with functions
+# dealing with functions in numbers
 # General function -> works with almost any data-type
 # abs() finding absolout value.
 abs_value = abs(-5)
@@ -178,7 +156,7 @@ print("The absolute value of -5: ", abs_value) #5
 num= 5.378
 print(f"round of {num}: ", round(num, 1))
 
-# pow(base, exponent),  
+# pow(base, exponent),  calculates the power of a number
 print(f"pow of {num}, {2}: ", pow(num, 2))
 
 # pow(base, exponent, reminder) -> calculates (base**exponent) % reminder
@@ -226,7 +204,3 @@ print( f"ceil of {x+0.5} = ", math.ceil(x+0.5) )
 
 # Note: there are a lot of other functionalities in math module you can check it using folloing lin of code.
 help(math)
-
-
-
-
