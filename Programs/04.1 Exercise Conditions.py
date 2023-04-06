@@ -10,9 +10,9 @@ if gender[0] == 'm' or gender[0] == 'M':
 else:
     is_married = input( 'are you married(Y/N)!: '.capitalize() )
     if is_married[0].upper() == 'Y':
-      print('Greetings Miss. ', name)
+      print('Greetings Mrs. ', name)
     else:
-      print(f"Greetings Mirs.{name}")
+      print(f"Greetings Ms.{name}")
   
 
 temp = input('Enter Tempreture(20c/20f): ')
@@ -30,4 +30,4 @@ else:
   print(f'{num} Fahrenheit is equal to {celsius} Celsius')
 
 print(celsius)
-print(fahrenheit)
+print(fahrenheit) 
